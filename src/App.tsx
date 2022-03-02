@@ -1,11 +1,10 @@
-import React from "react";
 import "./App.css";
-import { SideBar } from "./components/SideBar";
+import { Main } from "./components/Common/Main";
 
 function App() {
   return (
     <div className="App">
-      <SideBar />
+      <Main />
     </div>
   );
 }
