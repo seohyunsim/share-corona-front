@@ -1,16 +1,24 @@
 import { Board } from "../../Board";
+import { Confirmed } from "../../Confirmed";
 import { SideBar } from "../../Navigation/SideBar";
 import { Post } from "../Post";
-import { MainWrap, Wrap } from "./styles";
+import { Search } from "../Search";
+import { LeftSideWrap, MainWrap, RightSideWrap, Wrap } from "./styles";
 
 export const Main = () => {
   return (
     <Wrap>
-      <SideBar />
+      <LeftSideWrap>
+        <SideBar />
+      </LeftSideWrap>
       <MainWrap>
         <Post />
         <Board />
       </MainWrap>
+      <RightSideWrap>
+        <Search />
+        <Confirmed />
+      </RightSideWrap>
     </Wrap>
   );
 };

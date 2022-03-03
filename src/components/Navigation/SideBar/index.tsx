@@ -2,9 +2,10 @@ import {
   Wrap,
   TitleWrap,
   PointColor,
-  MenuWrap,
-  Menus,
   UserWrap,
+  BoardWrap,
+  Board,
+  MenuWrap,
 } from "./styles";
 import { BiUser } from "react-icons/bi";
 import { GrNotification } from "react-icons/gr";
@@ -16,14 +17,16 @@ export const SideBar = () => {
         <PointColor>share</PointColor>corona
       </TitleWrap>
       <MenuWrap>
-        <Menus>확진톡</Menus>
-        <Menus>코로나톡</Menus>
-        <Menus>응원톡</Menus>
+        <BoardWrap>
+          <Board>확진톡</Board>
+          <Board>코로나톡</Board>
+          <Board>응원톡</Board>
+        </BoardWrap>
+        <UserWrap>
+          <BiUser />
+          <GrNotification />
+        </UserWrap>
       </MenuWrap>
-      <UserWrap>
-        <BiUser />
-        <GrNotification />
-      </UserWrap>
     </Wrap>
   );
 };
