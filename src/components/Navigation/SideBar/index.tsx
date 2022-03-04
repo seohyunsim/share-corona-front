@@ -32,7 +32,9 @@ export const SideBar = () => {
           </StyledLink>
         </BoardWrap>
         <UserWrap>
-          <BiUser />
+          <StyledLink to="/profile">
+            <BiUser />
+          </StyledLink>
           <GrNotification />
         </UserWrap>
       </MenuWrap>
