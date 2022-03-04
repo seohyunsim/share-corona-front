@@ -6,6 +6,7 @@ import {
   BoardWrap,
   Board,
   MenuWrap,
+  StyledLink,
 } from "./styles";
 import { BiUser } from "react-icons/bi";
 import { GrNotification } from "react-icons/gr";
@@ -13,14 +14,22 @@ import { GrNotification } from "react-icons/gr";
 export const SideBar = () => {
   return (
     <Wrap>
-      <TitleWrap>
-        <PointColor>share</PointColor>corona
-      </TitleWrap>
+      <StyledLink to="/">
+        <TitleWrap>
+          <PointColor>share</PointColor>corona
+        </TitleWrap>
+      </StyledLink>
       <MenuWrap>
         <BoardWrap>
-          <Board>확진톡</Board>
-          <Board>코로나톡</Board>
-          <Board>응원톡</Board>
+          <StyledLink to="/confirmedTalk">
+            <Board>확진톡</Board>
+          </StyledLink>
+          <StyledLink to="/coronaTalk">
+            <Board>코로나톡</Board>
+          </StyledLink>
+          <StyledLink to="/cheeringTalk">
+            <Board>응원톡</Board>
+          </StyledLink>
         </BoardWrap>
         <UserWrap>
           <BiUser />
