@@ -7,8 +7,14 @@ export const Wrap = styled.div`
 
 export const UserWrap = styled.div`
   border: 1px solid red;
+  padding: 1em 4.5em;
   display: flex;
   justify-content: space-between;
+`;
+
+export const UserNameWrap = styled.div`
+  border: 2px solid;
+  display: flex;
 `;
 
 export const UserProfileWrap = styled.div`
@@ -25,9 +31,17 @@ export const UserProfileWrap = styled.div`
 `;
 
 export const UserInfoWrap = styled.div`
-  border: 1px solid;
+  border: 2px solid green;
   display: flex;
   flex-direction: column;
+`;
+
+export const UserInfo = styled.span<{
+  size: string;
+  weight: string;
+}>`
+  font-size: ${(props) => props.size};
+  font-weight: ${(props) => props.weight};
 `;
 
 export const UserInfoReformWrap = styled.div`
