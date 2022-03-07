@@ -1,10 +1,10 @@
-# share corona
+# SHARE CORONA
 
 코로나 관련 및 확진자 커뮤니티 서비스
 
 <br/><br/>
 
-## Cooperation
+### 👯‍♀ ️Cooperation
 
 <table>
   <tr>
@@ -14,12 +14,13 @@
 
 <br/><br/><br/>
 
-## Technology
+### 👨‍💻 Technology
 
-<p align="left">  
+<p align="center">  
   <img src="https://img.shields.io/badge/HTML-white?logo=html5"/>
   <img src= "https://img.shields.io/badge/CSS-blue?logo=css3"/>
   <img src= "https://img.shields.io/badge/typescript-white?logo=typescript"/>
+  <br/>
   <img src= "https://img.shields.io/badge/styled-components-white?logo=styled-components"/>
   <img src= "https://img.shields.io/badge/react-blue?logo=react"/>
   <img src= "https://img.shields.io/badge/vercel-black?logo=styled-vercel"/>
@@ -27,7 +28,7 @@
 
 <br/><br/><br/>
 
-## commit strategy
+### 📝 Commit strategy
 
 - 작업(작업 컴포넌트): 메시지
   ex) Add(main): 기능 추가
