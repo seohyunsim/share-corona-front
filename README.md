@@ -4,7 +4,7 @@
 
 <br/><br/>
 
-## 👯‍♀ ️Cooperation
+## Cooperation
 
 <table>
   <tr>
@@ -14,9 +14,9 @@
 
 <br/><br/><br/>
 
-## 👨‍💻 Technology
+## Technology
 
-<p align="center">  
+<p align="left">  
   <img src="https://img.shields.io/badge/HTML-white?logo=html5"/>
   <img src= "https://img.shields.io/badge/CSS-blue?logo=css3"/>
   <img src= "https://img.shields.io/badge/typescript-white?logo=typescript"/>
@@ -27,7 +27,7 @@
 
 <br/><br/><br/>
 
-## 📝 commit strategy
+## commit strategy
 
 - 작업(작업 컴포넌트): 메시지
   ex) Add(main): 기능 추가
@@ -37,6 +37,6 @@
 | Style    | 스타일이 변형되거나 추가되었을때         |
 | Add      | 기능이 추가되었을 때                     |
 | Modify   | 기능의 향상이 이루어지거나 수정되었을 때 |
-| fix      | 오류를 해결하였을 때                     |
+| Fix      | 오류를 해결하였을 때                     |
 | Refactor | 리팩터링을 했을 때                       |
 | Delete   | 불필요한 코드를 제거했을 때              |
