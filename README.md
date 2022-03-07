@@ -1,10 +1,10 @@
-# SHARE CORONA
+# share corona
 
 코로나 관련 및 확진자 커뮤니티 서비스
 
 <br/><br/>
 
-### 👯‍♀ ️Cooperation
+## 👯‍♀ ️Cooperation
 
 <table>
   <tr>
@@ -14,7 +14,7 @@
 
 <br/><br/><br/>
 
-### 👨‍💻 Technology
+## 👨‍💻 Technology
 
 <p align="center">  
   <img src="https://img.shields.io/badge/HTML-white?logo=html5"/>
@@ -28,7 +28,7 @@
 
 <br/><br/><br/>
 
-### 📝 Commit strategy
+## 📝 Commit strategy
 
 - 작업(작업 컴포넌트): 메시지
   ex) Add(main): 기능 추가
