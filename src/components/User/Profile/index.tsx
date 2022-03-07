@@ -1,6 +1,5 @@
 import React from "react";
 import {
-  UserInfoReformBtn,
   UserInfoReformWrap,
   UserNameWrap,
   UserInfo,
@@ -8,8 +7,10 @@ import {
   UserWrap,
   Wrap,
   UserInfoWrap,
+  UserPostWrap,
 } from "./styles";
 import { BiUser } from "react-icons/bi";
+import { PostingBox } from "../../Board/styles";
 
 export const Profile = () => {
   return (
@@ -23,15 +24,25 @@ export const Profile = () => {
             <UserInfo size={"24px"} weight={"800"}>
               닉네임
             </UserInfo>
-            <UserInfo size={"14px"} weight={"400"}>
+            <UserInfo size={"16px"} weight={"400"}>
               userID1111
             </UserInfo>
           </UserInfoWrap>
         </UserNameWrap>
         <UserInfoReformWrap>
-          <UserInfoReformBtn>프로필 수정</UserInfoReformBtn>
+          <button>프로필 수정</button>
         </UserInfoReformWrap>
       </UserWrap>
+      <UserPostWrap>
+        <span>작성글</span>
+        <hr />
+        <PostingBox />
+        <PostingBox />
+        <PostingBox />
+        <PostingBox />
+        <PostingBox />
+        <PostingBox />
+      </UserPostWrap>
     </Wrap>
   );
 };
