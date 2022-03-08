@@ -52,19 +52,25 @@ export const BoardWrap = styled.ul`
   padding: 0px;
 `;
 
-export const Board = styled.li`
-  padding: 18px;
+export const Board = styled.li<{
+  padding: string;
+}>`
+  padding: ${(props) => props.padding};
   cursor: pointer;
 `;
 
 export const UserWrap = styled.div`
-  padding: 15px;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  div {
+    list-style: none;
+    text-align: right;
+    padding-bottom: 20px; /*프로필 숨길때 지우기*/
+  }
   svg {
     font-size: 22px;
-    padding: 15px 5px;
+    padding: 15px 20px;
     cursor: pointer;
   }
 `;

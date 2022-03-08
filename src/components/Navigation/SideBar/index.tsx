@@ -22,20 +22,26 @@ export const SideBar = () => {
       <MenuWrap>
         <BoardWrap>
           <StyledLink to="/confirmedTalk">
-            <Board>확진톡</Board>
+            <Board padding={"18px"}>확진톡</Board>
           </StyledLink>
           <StyledLink to="/coronaTalk">
-            <Board>코로나톡</Board>
+            <Board padding={"18px"}>코로나톡</Board>
           </StyledLink>
           <StyledLink to="/cheeringTalk">
-            <Board>응원톡</Board>
+            <Board padding={"18px"}>응원톡</Board>
           </StyledLink>
         </BoardWrap>
         <UserWrap>
+          <div>
+            <Board padding={"22px 18px"}>로그인</Board>
+            <Board padding={"5px 18px"}>회원가입</Board>
+          </div>
           <StyledLink to="/profile">
             <BiUser />
           </StyledLink>
-          <GrNotification />
+          <StyledLink to="/notification">
+            <GrNotification />
+          </StyledLink>
         </UserWrap>
       </MenuWrap>
     </Wrap>

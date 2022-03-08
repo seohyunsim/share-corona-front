@@ -8,6 +8,7 @@ import { CoronaTalk } from "../../Board/CoronaTalk";
 import { ConfirmedTalk } from "../../Board/ConfirmedTalk";
 import { CheeringTalk } from "../../Board/CheeringTalk";
 import { Profile } from "../../User/Profile";
+import { Notification } from "../../User/Notification";
 
 export const Main = () => {
   return (
@@ -22,6 +23,7 @@ export const Main = () => {
           <Route path="/confirmedTalk" element={<ConfirmedTalk />} />
           <Route path="/cheeringTalk" element={<CheeringTalk />} />
           <Route path="/profile" element={<Profile />} />
+          <Route path="/notification" element={<Notification />} />
         </Routes>
       </MainWrap>
       <RightSideWrap>
