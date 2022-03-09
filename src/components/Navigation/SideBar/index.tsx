@@ -10,8 +10,20 @@ import {
 } from "./styles";
 import { BiUser } from "react-icons/bi";
 import { GrNotification } from "react-icons/gr";
+import { useCallback, useState } from "react";
+import Modal from "../../Common/Modal";
+import { Login } from "../../User/Login";
+import Portal from "../../Common/Portal";
 
 export const SideBar = () => {
+  const [isOpenModal, setOpenModal] = useState<boolean>(false);
+
+  const onClickToggleModal = useCallback(() => {
+    setOpenModal(!isOpenModal);
+  }, [isOpenModal]);
+
+  const selector = "portal";
+
   return (
     <Wrap>
       <StyledLink to="/">
@@ -33,7 +45,18 @@ export const SideBar = () => {
         </BoardWrap>
         <UserWrap>
           <div>
-            <Board padding={"22px 18px"}>로그인</Board>
+            <div>
+              {isOpenModal && (
+                <Modal onClickToggleModal={onClickToggleModal}>
+                  <Portal id="portal">
+                    <Login />
+                  </Portal>
+                </Modal>
+              )}
+              <Board padding={"22px 18px"} onClick={onClickToggleModal}>
+                로그인
+              </Board>
+            </div>
             <Board padding={"5px 18px"}>회원가입</Board>
           </div>
           <StyledLink to="/profile">

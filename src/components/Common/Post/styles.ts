@@ -7,6 +7,7 @@ export const Wrap = styled.div`
   position: sticky;
   top: 4px;
   background-color: #ffffff;
+  z-index: 99;
 `;
 
 export const PostInput = styled.input.attrs({

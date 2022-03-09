@@ -9,6 +9,7 @@ import { ConfirmedTalk } from "../../Board/ConfirmedTalk";
 import { CheeringTalk } from "../../Board/CheeringTalk";
 import { Profile } from "../../User/Profile";
 import { Notification } from "../../User/Notification";
+import { Login } from "../../User/Login";
 
 export const Main = () => {
   return (
