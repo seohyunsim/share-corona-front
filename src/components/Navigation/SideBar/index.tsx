@@ -11,8 +11,8 @@ import {
 import { BiUser } from "react-icons/bi";
 import { GrNotification } from "react-icons/gr";
 import { useCallback, useState } from "react";
-import Modal from "../../Common/Modal";
-import { Login } from "../../User/Login";
+import { OpentoLogin } from "./Container/OpentoLogin";
+import { OpentoSignup } from "./Container/OpentoSignup";
 
 export const SideBar = () => {
   const [isOpenModal, setOpenModal] = useState<boolean>(false);
@@ -42,17 +42,11 @@ export const SideBar = () => {
         </BoardWrap>
         <UserWrap>
           <div>
-            <div>
-              {isOpenModal && (
-                <Modal onClickToggleModal={onClickToggleModal}>
-                  <Login />
-                </Modal>
-              )}
-              <Board padding={"22px 18px"} onClick={onClickToggleModal}>
-                로그인
-              </Board>
-            </div>
-            <Board padding={"5px 18px"}>회원가입</Board>
+            <OpentoLogin />
+            <OpentoSignup
+              OpenModal={isOpenModal}
+              onClickToggleModal={onClickToggleModal}
+            />
           </div>
           <StyledLink to="/profile">
             <BiUser />
