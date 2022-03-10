@@ -1,10 +1,18 @@
-import ReactDOM from "react-dom";
+import { useMemo, useEffect, ReactNode } from "react";
 
-const Portal = (children: any, id: any) => {
-  const element = typeof window !== "undefined" && document.getElementById(id);
-  //   const id = document.queryid(id);
-  console.log("id:", element);
-  return element && children ? ReactDOM.createPortal(children, element) : null;
+import { createPortal } from "react-dom";
+
+interface PortalWrapProps {
+  children: ReactNode;
+}
+
+export const Portal = ({ children }: PortalWrapProps) => {
+  // div tag 생성
+  const subDiv = useMemo(() => document.createElement("div"), []);
+  useEffect(() => {
+    subDiv.id = "portal-wrap";
+    document.body.appendChild(subDiv);
+    return () => subDiv.remove();
+  }, [subDiv]);
+  return createPortal(<>{children}</>, subDiv);
 };
-
-export default Portal;

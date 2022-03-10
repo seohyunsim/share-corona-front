@@ -13,7 +13,6 @@ import { GrNotification } from "react-icons/gr";
 import { useCallback, useState } from "react";
 import Modal from "../../Common/Modal";
 import { Login } from "../../User/Login";
-import Portal from "../../Common/Portal";
 
 export const SideBar = () => {
   const [isOpenModal, setOpenModal] = useState<boolean>(false);
@@ -21,8 +20,6 @@ export const SideBar = () => {
   const onClickToggleModal = useCallback(() => {
     setOpenModal(!isOpenModal);
   }, [isOpenModal]);
-
-  const selector = "portal";
 
   return (
     <Wrap>
@@ -48,9 +45,7 @@ export const SideBar = () => {
             <div>
               {isOpenModal && (
                 <Modal onClickToggleModal={onClickToggleModal}>
-                  <Portal id="portal">
-                    <Login />
-                  </Portal>
+                  <Login />
                 </Modal>
               )}
               <Board padding={"22px 18px"} onClick={onClickToggleModal}>
