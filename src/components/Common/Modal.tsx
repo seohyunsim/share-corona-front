@@ -41,8 +41,8 @@ const ModalContainer = styled.div`
 `;
 
 const DialogBox = styled.dialog`
-  width: 800px;
-  height: 400px;
+  width: 500px;
+  height: 550px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -62,7 +62,7 @@ const Backdrop = styled.div`
   left: 0;
   right: 0;
   z-index: 99;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.267);
 `;
 
 export default Modal;

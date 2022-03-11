@@ -1,10 +1,17 @@
 import React from "react";
-import { Wrap } from "./styles";
+import { InputWrap, TitleWrap, Wrap } from "./styles";
 
 export const Login = () => {
   return (
     <Wrap>
-      <h3>로그인 입니다요</h3>
+      <TitleWrap>
+        <div>share</div> corona
+      </TitleWrap>
+      <InputWrap>
+        <input type="text" placeholder="ID" />
+        <input type="password" placeholder="PASSWORD" />
+        <button>로그인 하기</button>
+      </InputWrap>
     </Wrap>
   );
 };
