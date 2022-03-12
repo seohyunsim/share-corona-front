@@ -10,7 +10,8 @@ export const TitleWrap = styled.div`
   display: flex;
   font-size: 32px;
   justify-content: center;
-  padding: 0.5em;
+  padding: 0.8em;
+  cursor: default;
   div {
     color: #5d68c4;
     margin: 0px 12px;
@@ -46,5 +47,45 @@ export const InputWrap = styled.div`
     &:hover {
       background-color: rgba(129, 146, 224, 0.176);
     }
+  }
+`;
+
+export const FindWrap = styled.div`
+  width: 87%;
+  margin: 0 auto;
+  padding: 1em 0px;
+  display: flex;
+  justify-content: space-evenly;
+  span {
+    font-size: 14px;
+    cursor: pointer;
+    color: #313131;
+  }
+`;
+
+export const SocialLoginWrap = styled.div`
+  width: 87%;
+  margin: 0 auto;
+  padding: 2em 0px;
+  div {
+    display: flex;
+    flex-basis: 100%;
+    align-items: center;
+    font-size: 13.5px;
+    margin: 8px 0px;
+    cursor: default;
+    &::before,
+    &::after {
+      content: "";
+      flex-grow: 1;
+      background: rgba(0, 0, 0, 0.616);
+      height: 0.1px;
+      font-size: 0px;
+      line-height: 0px;
+      margin: 0px 10px;
+    }
+  }
+  img {
+    width: 7.5em;
   }
 `;

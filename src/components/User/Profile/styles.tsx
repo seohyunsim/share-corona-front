@@ -24,6 +24,7 @@ export const UserProfileWrap = styled.div`
   svg {
     font-size: 60px;
     margin: 0 auto;
+    color: #a0a0a0;
   }
 `;
 
