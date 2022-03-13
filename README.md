@@ -16,6 +16,10 @@
 
 ## 👨‍💻 Technology
 
+<h3 align=“center”>
+FrontEnd
+</h3>
+
 <p align="center">  
   <img src="https://img.shields.io/badge/HTML-white?logo=html5"/>
   <img src= "https://img.shields.io/badge/CSS-blue?logo=css3"/>
@@ -24,6 +28,29 @@
   <img src= "https://img.shields.io/badge/styled-components-white?logo=styled-components"/>
   <img src= "https://img.shields.io/badge/react-blue?logo=react"/>
   <img src= "https://img.shields.io/badge/vercel-black?logo=styled-vercel"/>
+</p>
+
+<h3 align=“center”>
+BackEnd
+</h3>
+
+<p align="center">  
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=Node.js&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Express-000000?style=flat&logo=Express&logoColor=white"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=TypeScript&logoColor=white"/>
+  <img src="https://img.shields.io/badge/RestFul-EF2D5E?style=flat&logoColor=white"/>
+
+<br/>
+
+  <img src="https://img.shields.io/badge/MariaDB-003545?style=flat&logo=MariaDB&logoColor=white"/>
+  <img src="https://img.shields.io/badge/MySQL%20Workbench-4479A1?style=flat&logo=MySQL&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat&logo=Redis&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Jest-C21325?style=flat&logo=Jest&logoColor=white"/>
+ 
+<br/>
+  
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat&logo=Amazon%20AWS&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Linux(Ubuntu)-E95420?style=flat&logo=Ubuntu&logoColor=white"/>
 </p>
 
 <br/><br/><br/>
