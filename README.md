@@ -16,7 +16,7 @@
 
 ## 👨‍💻 Technology
 
-<h3 align=“center”>
+<h3 align="center">
 FrontEnd
 </h3>
 
@@ -30,7 +30,7 @@ FrontEnd
   <img src= "https://img.shields.io/badge/vercel-black?logo=styled-vercel"/>
 </p>
 
-<h3 align=“center”>
+<h3 align="center">
 BackEnd
 </h3>
 
